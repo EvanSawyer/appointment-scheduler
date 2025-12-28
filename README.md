@@ -25,8 +25,7 @@ It allows a user to select a day and a time for an appointment and displays a co
 - JavaScript  
 
 ### Live Demo
-[Insert your GitHub Pages link here]
-
+https://evansawyer.github.io/appointment-scheduler/
 ---
 
 ## Magyar
@@ -54,4 +53,4 @@ A felhasználó kiválaszthat egy napot és egy órát az időpontfoglaláshoz, 
 - JavaScript  
 
 ### Élő Demo
-[Ide illeszd be a GitHub Pages linket]
+https://evansawyer.github.io/appointment-scheduler/
