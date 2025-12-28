@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Appointment Scheduler</h1>
+
+    <div class="form-group">
+      <label for="day">Choose a day:</label>
+      <select id="day">
+        <option value="Monday">Monday / Hétfő</option>
+        <option value="Tuesday">Tuesday / Kedd</option>
+        <option value="Wednesday">Wednesday / Szerda</option>
+        <option value="Thursday">Thursday / Csütörtök</option>
+        <option value="Friday">Friday / Péntek</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="time">Choose a time:</label>
+      <select id="time">
+        <option value="9:00">9:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+      </select>
+    </div>
+
+    <button id="bookBtn">Book Appointment / Foglalás</button>
+
+    <div id="popup" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
